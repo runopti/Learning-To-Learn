@@ -3,18 +3,18 @@
 TensorFlow implementation of [Learning to learn by gradient descent by gradient descent](https://arxiv.org/pdf/1606.04474v1.pdf). 
 
 Since the computational graph of the architecture could be huge on MNIST and Cifar10, the current implementation only deals with the task
-on quadratic functions as described in Section 3.1 in the paper.
+on quadratic functions as described in Section 3.1 in the paper. The image below is from the paper: Figure 2 on page 4.
 
+![compgraph](./img/compgraph.png)
 
-# Requirements
+## Requirements
 
-- Tensorflow 0.9 
 - Python 2.7 or higher
 - Numpy 
-- Pickle
+- Tensorflow 0.9 
 
 
-# Usage
+## Usage
 
 First train a rnn optimizer:
 ```
@@ -54,13 +54,14 @@ Make sure you use the same values for both trainOptimizer.py and main.py.
 
 Instead of manually running the two python scripts, you can also run runall.sh to do the same. One run of runall.sh should be done in around 5 minutes with the default setting.
 
-# Reference
+## Reference
 
 [Learning to learn by gradient descent by gradient descent](https://arxiv.org/pdf/1606.04474v1.pdf)
 
 
-# LICENSE   
+## LICENSE   
 
 MIT License
+
 
 
