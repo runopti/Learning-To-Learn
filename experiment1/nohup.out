@@ -1,6 +1,0 @@
-I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcublas.so locally
-I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcudnn.so locally
-I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcufft.so locally
-I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcuda.so locally
-I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcurand.so locally
-WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7f60b48cbb00>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
