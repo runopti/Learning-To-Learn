@@ -3,7 +3,7 @@
 TensorFlow implementation of [Learning to learn by gradient descent by gradient descent](https://arxiv.org/pdf/1606.04474v1.pdf). 
 
 Since the computational graph of the architecture could be huge on MNIST and Cifar10, the current implementation only deals with the task
-on quadratic functions as described in Section 3.1 in the paper. The image below is from the paper: Figure 2 on page 4.
+on quadratic functions as described in Section 3.1 in the paper. The image below is from the paper (Figure 2 on page 4).
 
 ![compgraph](./img/compgraph.png)
 
@@ -62,6 +62,8 @@ Instead of manually running the two python scripts, you can also run runall.sh t
 ## LICENSE   
 
 MIT License
+
+
 
 
 
