@@ -1,4 +1,4 @@
-# LearningToLearn: RNN-based Optimization 
+# Learning-To-Learn: RNN-based Optimization 
 
 TensorFlow implementation of [Learning to learn by gradient descent by gradient descent](https://arxiv.org/pdf/1606.04474v1.pdf). 
 
@@ -47,7 +47,7 @@ The parameters in this model are:
 
 You can change these values by passing the arguments explicitly. For example:
 ```
-$ python3 trainOptimizer.py --n_samplings 10 --n_unroll 4 --n_dimension 5 --n_hidden 3 --n_layers 2
+$ python trainOptimizer.py --n_samplings 10 --n_unroll 4 --n_dimension 5 --n_hidden 3 --n_layers 2
 ```
 
 Make sure you use the same values for both trainOptimizer.py and main.py. 
