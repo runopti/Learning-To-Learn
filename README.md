@@ -7,6 +7,8 @@ on quadratic functions as described in Section 3.1 in the paper. The image below
 
 ![compgraph](./img/compgraph.png)
 
+See the writeup for explanation of the paper [here](http://runopti.github.io/blog/2016/10/17/learningtolearn-1/)
+
 ## Requirements
 
 - Python 2.7 or higher
